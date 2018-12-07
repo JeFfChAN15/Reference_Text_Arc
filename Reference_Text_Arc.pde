@@ -4,19 +4,14 @@ void setup()
 size(700,700);
 frameRate(10);
 }
-
 void draw()
 {
-
   background(66,random(0,255),244);
 //Shows cursor position
-
  //arc
 fill(102,0,204);
 arc(234,80,27,37,0,270);
- 
- 
- //words
+  //words
  fill(102,0,204);
   textSize(70);
   text("Go d Morning",130,100);
